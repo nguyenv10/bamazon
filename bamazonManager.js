@@ -161,7 +161,7 @@ app.get("/product-added", (req, res) => {
   });
 });
 
-// The app is running on http://localhost:4000
-app.listen(4000, () =>
-  console.log("The app is running on http://localhost:4000")
+// The app is running on http://localhost:4500
+app.listen(4500, () =>
+  console.log("The app is running on http://localhost:4500")
 );
